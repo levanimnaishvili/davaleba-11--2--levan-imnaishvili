@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.forms{
+    width: 750px;
+    height: 726px;
+    margin-top: 58px;
+    margin-left: 600px;
+}
+.forms input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.forms input[type="text"]{
+    color: #000000;
+    margin-bottom: 38px;
+}
+.forms input[type="number"]{
+    color: #000000;
+    margin-top: -14px;
+    margin-bottom: 12px;
+}
+.text1{
+    font-size: 36px;
+    color: #ffffff;
+    padding: 24px 130px 30px 128px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-bottom: 64px;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.forms textarea{
+    width: 100%;
+    height: 154px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.text3{
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 18px;
+    margin-bottom: 45px;
+}
+.forms input[type="radio"]{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.forms label{
+    align-items: center;
+}
+.radio{
+    width: 750px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+    
+}
+.radio1{
+    width: 226px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 108px;
+}
+.radio2{
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 108px;
+}
+.forms input[type="submit"]{
+    color: #000000;
+    font-size: 20px;
+    background-color: #01af8c;
+    margin-bottom: 38px;
+    border-bottom: 2px solid #000000;
+}
+
+
+
+
+/* -------------------------about-------------------------- */
+
+
+.container{
+    width: 750px;
+    height: 394px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 58px;
+    padding-top: 70px;
+    padding-left: 38px;
+}
+.finaltext1{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+.finaltext2{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 200;
+}
+.link{
+    margin-top: 330px;
+    margin-left: 600px;
+    margin-bottom: 104px;
+}
+.link1{
+    padding: 22px 164px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 200;
+    margin-top: 400px;
+    background-color: #F5BA22;
+    border-radius: 10px;
+}
